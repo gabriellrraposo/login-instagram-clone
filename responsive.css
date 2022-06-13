@@ -36,3 +36,30 @@
     }
 }
 
+@media screen and (max-width:900px) {
+    .login {
+        width: 50%;
+    }
+    
+    #logo {
+        width: 140px;
+    }
+
+    #fotoPerfil {
+        width: 100px;
+    }
+
+    .baixar {
+        flex-direction: column;
+    }
+
+    #android {
+        padding-right: 0;
+        margin: 3% 0;
+    }
+    
+    #ios {
+        padding-left: 0;
+    }
+}
+
