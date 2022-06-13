@@ -6,12 +6,12 @@
 
 @media screen and (max-width:1100px) {
     .instagram-wrapper {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
     }
 
     .celular {
-        margin-bottom: 5%;
+        margin-top: 5%;
     }
 
     .login {
@@ -60,6 +60,12 @@
     
     #ios {
         padding-left: 0;
+    }
+}
+
+@media screen and (max-width:485px) {
+    .login {
+        width: 70%;
     }
 }
 
